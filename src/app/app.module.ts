@@ -38,8 +38,6 @@ import { PayingComponent } from './paying/paying.component';
 import { ExchangeComponent } from './exchange/exchange.component';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
 import { PasswordConfirmationComponent } from './reset-password/password-confirmation/password-confirmation.component';
-import {MatDialogModule} from "@angular/material/dialog";
-import { PopupTransactionComponent } from './popup/popup-transaction/popup-transaction.component';
 //import { PasswordActivationComponent } from './reset-password/password-confirmation/password-activation.component';
 
 
@@ -71,7 +69,6 @@ import { PopupTransactionComponent } from './popup/popup-transaction/popup-trans
     ResetPasswordComponent,
     PasswordActivationComponent,
     PasswordConfirmationComponent,
-    PopupTransactionComponent,
 
   ],
   imports: [
@@ -88,7 +85,7 @@ import { PopupTransactionComponent } from './popup/popup-transaction/popup-trans
     MatDatepickerModule,
     MatNativeDateModule,
     MatSelectModule,
-    MatDialogModule
+
   ],
   providers: [],
   bootstrap: [AppComponent],
